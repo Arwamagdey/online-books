@@ -1,0 +1,199 @@
+.header{
+    background-color: rgb(18, 38, 58);
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.header img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 3px solid rgb(31, 28, 28);
+    margin-left: 250px;
+    margin-top: 5px;
+    float: left;
+}
+
+.list{
+    float: right;
+}
+
+.list li{
+    list-style-type: none;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+.list ul{
+    margin-top: 35px;
+    margin-right: 180px;
+
+}
+
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+
+} 
+
+h2:hover{
+    color: aliceblue;
+   
+}
+
+h4:hover{
+    color: blue;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+.parent{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(9, 47, 80);
+    float: left;  
+    margin-right: 40px;
+}
+.parent:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay{
+    background-color: rgba(20, 32, 44, 0.3);
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(17, 35, 48);
+    border: 1px solid rgb(100, 98, 98);
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.parent2{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(9, 47, 80);
+    float: left;
+    margin-right: 40px;
+}
+   
+.parent2:hover .overlay2{
+    visibility: visible;
+    opacity: 1;
+}
+img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay2{
+    background-color: rgba(22, 32, 44, 0.3);
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay2 a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(17, 35, 48);
+    border: 1px solid silver;
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.parent3{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(9, 47, 80);
+    float: left;
+    margin-right: 40px;
+
+}
+
+.parent3:hover .overlay3{
+    visibility: visible;
+    opacity: 1;
+}
+img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay3{
+    background-color: rgb(20, 32, 44,0.3);
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay3 a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(17, 35, 48);
+    border: 1px solid silver;
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.div3{
+    margin-left: 255px;
+    float: left;
+}
+
